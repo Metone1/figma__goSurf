@@ -1,0 +1,134 @@
+$containerWidth: 1440 + px;
+$breakpoint1438: 1438 + px;
+$breakpoint1200: 1200 + px;
+$breakpoint1000: 1000 + px;
+$breakpoint800: 800 + px;
+$breakpoint600: 600 + px;
+
+@import "_header";
+@import "_main";
+// @import "_footer";
+@import "_surf";
+// @import "_popular";
+// @import "_hotels";
+// @import "_travels";
+// @import "_activities";
+// @import "_aboutUs";
+// @import "_burger";
+
+
+*,
+*::before,
+*::after {
+   padding: 0;
+   margin: 0;
+   bottom: 0;
+   box-sizing: border-box;
+}
+
+a {
+   text-decoration: none;
+   color: #FFFFFF;
+}
+
+ul,
+ol,
+li {
+   list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: inherit;
+   font-size: inherit;
+}
+
+html,
+body {
+   height: 100%;
+   line-height: 1;
+   font-size: 16px;
+   font-weight: 400;
+   color: #FFFFFF;
+   font-family: 'Fira Sans', sans-serif;
+}
+
+body.lock {
+   overflow: hidden;
+}
+
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   background: #171919;
+}
+
+._container {
+   max-width: $containerWidth;
+   margin: 0px auto;
+   position: relative;
+   z-index: 1;
+}
+
+._ibg img {
+   position: absolute;
+   width: 100%;
+   height: 1024px;
+   left: 0;
+   top: 0;
+   object-fit: cover;
+   z-index: 0;
+}
+
+._opacity-title {
+   font-weight: 800;
+   font-size: 200px;
+   line-height: 0.78;
+   text-transform: uppercase;
+}
+
+._subtitle {
+   gap: 31px;
+   font-weight: 400;
+   font-size: 22px;
+   line-height: 1.45;
+   letter-spacing: 7.33333px;
+   text-transform: uppercase;
+   opacity: 0.5;
+   align-items: center;
+   display: flex;
+   justify-content: flex-end;
+}
+
+.span {
+   background: rgb(255, 255, 255);
+   width: 80px;
+   height: 1px;
+}
+
+._title_big {
+   font-weight: 800;
+   font-size: 80px;
+   line-height: 1.08;
+   text-transform: uppercase;
+   position: relative;
+   top: 0;
+   left: 0;
+}
+
+._title_small {
+   font-weight: 800;
+   font-size: 40px;
+   line-height: 1;
+   text-align: right;
+   text-transform: uppercase;
+   position: relative;
+   top: 0;
+   left: 0;
+}
