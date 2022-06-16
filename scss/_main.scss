@@ -1,5 +1,6 @@
 .main-block__container {
    min-height: 1024px;
+   position: relative;
 }
 
 .main-block__image img {
@@ -192,21 +193,21 @@
 }
 
 .location__arrow {
-   position: relative;
-   display: flex;
-   justify-content: flex-end;
-   padding: 30px 80px 0 0;
+   position: absolute;
+   right: 80px;
+   bottom: 115px;
 }
 
 .main-block__scroll {
    position: relative;
    left: 209px;
-   top: 51px;
+   top: 90px;
 }
 
 .main-block__pages {
    position: relative;
-   left: 455px;
+   right: -440px;
+   bottom: -48px;
    display: flex;
    gap: 40px;
    width: 920px;
