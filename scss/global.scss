@@ -9,6 +9,7 @@ $breakpoint600: 600 + px;
 @import "_main";
 @import "_surf";
 @import "_swiper";
+@import "_travel";
 // @import "_burger";
 // @import "_footer";
 
@@ -128,4 +129,28 @@ body.lock {
    position: relative;
    top: 0;
    left: 0;
+}
+
+
+._line {
+   width: 1px;
+   height: 100%;
+   position: absolute;
+   background: #FFFFFF;
+   opacity: 0.1;
+}
+
+.page__line_1 {
+   top: 0;
+   left: 167px;
+}
+
+.page__line_2 {
+   top: 0;
+   left: 594px;
+}
+
+.page__line_3 {
+   top: 0;
+   left: 1020px;
 }

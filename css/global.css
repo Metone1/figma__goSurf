@@ -464,29 +464,6 @@
   overflow: hidden;
 }
 
-._line {
-  width: 1px;
-  height: 100%;
-  position: absolute;
-  background: #FFFFFF;
-  opacity: 0.1;
-}
-
-.surf__line_1 {
-  top: 0;
-  left: 167px;
-}
-
-.surf__line_2 {
-  top: 0;
-  left: 594px;
-}
-
-.surf__line_3 {
-  top: 0;
-  left: 1020px;
-}
-
 .surf__background {
   position: relative;
   top: 367px;
@@ -904,6 +881,142 @@
   width: 400px;
 }
 
+.travel__container {
+  height: 1756px;
+  position: relative;
+  overflow: hidden;
+}
+
+.bg__fix {
+  position: absolute;
+  width: 30px;
+  height: 700px;
+  background: #171919;
+  top: 206px;
+  left: 1100px;
+  z-index: 1;
+}
+
+.travel__title {
+  position: absolute;
+  top: 33px;
+  left: 269px;
+  font-weight: 800;
+  font-size: 80px;
+  line-height: 1;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 269px;
+  height: 100px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  gap: 5px;
+}
+
+.travel__title .span {
+  background: #4AF6CD;
+}
+
+.travel__background-text {
+  position: absolute;
+  z-index: 0;
+  top: 64px;
+  left: -24px;
+  height: 200px;
+  width: 800px;
+  opacity: 0.02;
+}
+
+.travel__background img {
+  position: absolute;
+  top: 206px;
+  opacity: 0.9;
+}
+
+.travel__block-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 19px;
+  position: absolute;
+  z-index: 2;
+  top: 296px;
+  right: 80px;
+  width: 500px;
+  height: 100px;
+}
+
+.travel__title-small {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  gap: 16px;
+}
+
+.travel__title-small span {
+  display: inline-block;
+  height: 42px;
+  width: 1px;
+  background: #fffefe;
+}
+
+.travel__block-title_airline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 19px;
+  position: absolute;
+  z-index: 2;
+  top: 882px;
+  left: 135px;
+  width: 411px;
+  height: 100px;
+}
+
+.backrow__subtitle {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.backrow__title-small {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.backrow img {
+  height: 46px;
+  width: 52px;
+}
+
+.travel__airbus {
+  position: absolute;
+  top: 694px;
+  right: 0;
+  z-index: 2;
+}
+
 *,
 *::before,
 *::after {
@@ -1031,4 +1144,27 @@ body.lock {
   position: relative;
   top: 0;
   left: 0;
+}
+
+._line {
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  background: #FFFFFF;
+  opacity: 0.1;
+}
+
+.page__line_1 {
+  top: 0;
+  left: 167px;
+}
+
+.page__line_2 {
+  top: 0;
+  left: 594px;
+}
+
+.page__line_3 {
+  top: 0;
+  left: 1020px;
 }

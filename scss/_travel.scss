@@ -1,0 +1,113 @@
+.travel__container {
+   height: 1756px;
+   position: relative;
+   overflow: hidden;
+}
+
+.bg__fix {
+   position: absolute;
+   width: 30px;
+   height: 700px;
+   background: #171919;
+   top: 206px;
+   left: 1100px;
+   z-index: 1;
+}
+
+.travel__title {
+   position: absolute;
+   top: 33px;
+   left: 269px;
+   font-weight: 800;
+   font-size: 80px;
+   line-height: 1;
+   text-transform: uppercase;
+   display: flex;
+   flex-wrap: wrap;
+   width: 269px;
+   height: 100px;
+   justify-content: flex-end;
+   gap: 5px;
+
+   & .span {
+      background: #4AF6CD;
+   }
+}
+
+.travel__background-text {
+   position: absolute;
+   z-index: 0;
+   top: 64px;
+   left: -24px;
+   height: 200px;
+   width: 800px;
+   opacity: 0.02;
+}
+
+.travel__background img {
+   position: absolute;
+   top: 206px;
+   opacity: 0.9;
+}
+
+//===============title_right==============
+
+.travel__block-title {
+   display: flex;
+   flex-direction: column;
+   gap: 19px;
+   position: absolute;
+   z-index: 2;
+   top: 296px;
+   right: 80px;
+   width: 500px;
+   height: 100px;
+}
+
+.travel__title-small {
+   display: flex;
+   justify-content: flex-end;
+   gap: 16px;
+}
+
+.travel__title-small span {
+   display: inline-block;
+   height: 42px;
+   width: 1px;
+   background: rgb(255, 254, 254);
+}
+
+//===============title_left==============
+
+.travel__block-title_airline {
+   display: flex;
+   flex-direction: column;
+   gap: 19px;
+   position: absolute;
+   z-index: 2;
+   top: 882px;
+   left: 135px;
+   width: 411px;
+   height: 100px;
+}
+
+.backrow__subtitle {
+   flex-direction: row-reverse;
+}
+
+.backrow__title-small {
+   display: flex;
+   justify-content: space-between;
+}
+
+.backrow img {
+   height: 46px;
+   width: 52px;
+}
+
+.travel__airbus {
+   position: absolute;
+   top: 694px;
+   right: 0;
+   z-index: 2;
+}
