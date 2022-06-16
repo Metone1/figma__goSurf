@@ -11,6 +11,7 @@
    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;300;400;500;800&display=swap"
       rel="stylesheet">
    <link rel="stylesheet" href="css/global.css">
+   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -142,15 +143,7 @@
                <div class="surf__background">
                   <img src="./images/surf/worls_map.svg" alt="map">
                   <img class="surf__background-location" src="./images/surf/location.svg" alt="location">
-                  <div class="surf__background-doths">
-                     <div class="surf__background-oval_1 oval"></div>
-                     <div class="surf__background-oval_2 oval"></div>
-                     <div class="surf__background-oval_3 oval"></div>
-                     <div class="surf__background-oval_4 oval"></div>
-                     <div class="surf__background-oval_5 oval"></div>
-                     <div class="surf__background-oval_6 oval"></div>
-                     <div class="surf__background-oval_7 oval"></div>
-                     <div class="surf__background-oval_8 oval_active"></div>
+                  <div class="surf__swiper-pagination">
                   </div>
                </div>
                <div class="surf__background-text _opacity-title">surf</div>
@@ -201,10 +194,76 @@
                      </div>
                   </div>
                </div>
+               <div class="surf__swiper-buttons">
+                  <input class="swiper__button-left" type="image" src="./images/surf/arrow-left.svg" alt="arrow-left">
+                  </input>
+                  <input class="swiper__button-right" type="image" src="./images/surf/arrow-right.svg"
+                     alt="arrow-right">
+                  </input>
+               </div>
+               <div class="swiper-pagination"></div>
+               <div class="surf__swiper swiper">
+                  <div class="swiper-wrapper">
+                     <div class="swiper-slide zero">
+                        <div class="swiper-slide__title">Airlie
+                           Beach</div>
+                        <div class="swiper-slide__subtitle">Queensland | Australia</div>
+                        <div class="swiper-slide__mask"></div>
+                        <img src="./images/surf_images/airlie.jpg" alt="airlie">
+                     </div>
+                     <div class="swiper-slide one">
+                        <div class="swiper-slide__title">Cloud
+                           Nine</div>
+                        <div class="swiper-slide__subtitle">Siargao | Philippines</div>
+                        <div class="swiper-slide__mask"></div>
+                        <img src="./images/surf_images/cloud.jpg" alt="cloud">
+                     </div>
+                     <div class="swiper-slide two">
+                        <div class="swiper-slide__title">Vieux
+                           Boucau</div>
+                        <div class="swiper-slide__subtitle">Hossegor | France</div>
+                        <div class="swiper-slide__mask"></div>
+                        <img src="./images/surf_images/vieux.jpg" alt="vieux">
+                     </div>
+                     <div class="swiper-slide three">
+                        <div class="swiper-slide__title">La Pared Beach</div>
+                        <div class="swiper-slide__subtitle">Luquillo | Puerto Rico</div>
+                        <div class="swiper-slide__mask"></div>
+                        <img src="./images/surf_images/surf8.jpg" alt="puerto">
+                     </div>
+                     <div class="swiper-slide four">
+                        <div class="swiper-slide__title">Arpoador Beach</div>
+                        <div class="swiper-slide__subtitle">Rio de Janeiro | Brasil</div>
+                        <div class="swiper-slide__mask"></div>
+                        <img src="./images/surf_images/surf5.jpg" alt="brasil">
+                     </div>
+                     <div class="swiper-slide five">
+                        <div class="swiper-slide__title">Surfers Paradise</div>
+                        <div class="swiper-slide__subtitle">Weligama | Sri Lanka</div>
+                        <div class="swiper-slide__mask"></div>
+                        <img src="./images/surf_images/surf6.jpg" alt="sri lanka">
+                     </div>
+                     <div class="swiper-slide six">
+                        <div class="swiper-slide__title">Beach Front</div>
+                        <div class="swiper-slide__subtitle">Durban | South Africa</div>
+                        <div class="swiper-slide__mask"></div>
+                        <img src="./images/surf_images/surf7.jpg" alt="africa">
+                     </div>
+                     <div class="swiper-slide seven">
+                        <div class="swiper-slide__title">Malibu
+                           Beach</div>
+                        <div class="swiper-slide__subtitle">California | USA</div>
+                        <div class="swiper-slide__mask"></div>
+                        <img src="./images/surf_images/malibu.jpg" alt="malibu">
+                     </div>
+                  </div>
+               </div>
             </div>
          </div>
       </main>
    </div>
 </body>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="./script.js"></script>
 
 </html>

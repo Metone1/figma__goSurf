@@ -41,25 +41,10 @@
    left: 166px;
 }
 
-.surf__background-doths img {
-   width: 24px;
-   height: 24px;
-}
-
-.oval {
-   width: 24px;
-   height: 24px;
-   border-radius: 50%;
-   background: #4AF6CD;
-   box-shadow: 0px 0px 35px rgba(74, 246, 205, 0.837777);
-}
-
-.oval_active {
-   width: 38px;
-   height: 38px;
-   border-radius: 50%;
-   background: #4AF6CD;
-   box-shadow: 0px 0px 35px rgba(74, 246, 205, 0.837777);
+.surf__background-oval_0 {
+   position: absolute;
+   top: 491px;
+   left: 1090px;
 }
 
 .surf__background-oval_1 {
@@ -70,8 +55,8 @@
 
 .surf__background-oval_2 {
    position: absolute;
-   top: 290px;
-   left: 136px;
+   top: 212px;
+   left: 530px;
 }
 
 .surf__background-oval_3 {
@@ -88,8 +73,8 @@
 
 .surf__background-oval_5 {
    position: absolute;
-   top: 212px;
-   left: 530px;
+   top: 395px;
+   left: 798px;
 }
 
 .surf__background-oval_6 {
@@ -100,14 +85,8 @@
 
 .surf__background-oval_7 {
    position: absolute;
-   top: 395px;
-   left: 798px;
-}
-
-.surf__background-oval_8 {
-   position: absolute;
-   top: 491px;
-   left: 1090px;
+   top: 290px;
+   left: 136px;
 }
 
 .surf__background-text {
