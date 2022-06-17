@@ -358,7 +358,10 @@
 }
 
 .location {
-  padding-top: 112px;
+  margin-top: 112px;
+  position: relative;
+  height: 381px;
+  width: 100%;
 }
 
 .location__subtitle {
@@ -377,7 +380,7 @@
 .location__arrow {
   position: absolute;
   right: 80px;
-  bottom: 115px;
+  bottom: 80px;
 }
 
 .main-block__scroll {
@@ -387,30 +390,40 @@
 }
 
 .main-block__pages {
-  position: relative;
-  right: -440px;
-  bottom: -48px;
+  position: absolute;
+  right: 80px;
+  bottom: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 40px;
-  width: 920px;
   height: 40px;
-}
-
-@media (max-width: 1240px) {
-  .main-block__pages {
-    left: 300px;
-  }
 }
 
 @media (max-width: 1040px) {
   .main-block__pages {
-    left: 250px;
+    right: 140px;
+    bottom: 46px;
     gap: 15px;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
+}
+
+.main-block__pages-first-floor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+
+.main-block__pages-second-floor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
 }
 
 .main-block__page {
@@ -428,15 +441,9 @@
   border-top: 4px solid #4AF6CD;
 }
 
-@media (max-width: 1438px) {
+@media (max-width: 1240px) {
   .main-block__page {
     width: 140px;
-  }
-}
-
-@media (max-width: 1040px) {
-  .main-block__page {
-    width: 120px;
   }
 }
 
@@ -604,7 +611,7 @@
   display: inline-block;
   height: 42px;
   width: 1px;
-  background: #fffefe;
+  background: white;
 }
 
 .info {
@@ -848,9 +855,6 @@
   width: 38px;
   height: 38px;
   border-radius: 50%;
-  background: #4AF6CD;
-  -webkit-box-shadow: 0px 0px 35px rgba(74, 246, 205, 0.837777);
-          box-shadow: 0px 0px 35px rgba(74, 246, 205, 0.837777);
 }
 
 .swiper-slide__title {
@@ -952,7 +956,12 @@
   top: 296px;
   right: 80px;
   width: 500px;
-  height: 100px;
+  height: 129px;
+}
+
+.travel__block-title .surf__swiper-buttons {
+  top: 108px;
+  right: 0;
 }
 
 .travel__title-small {
@@ -1015,6 +1024,78 @@
   top: 694px;
   right: 0;
   z-index: 2;
+  height: 400px;
+}
+
+.travel__swiper {
+  position: relative;
+  top: 1088px;
+  left: 133px;
+  height: 300px;
+}
+
+.swiper-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.swiper-slide__block {
+  position: relative;
+  height: 300px;
+  width: 300px;
+}
+
+.travel__swiper-title {
+  position: relative;
+  top: 8px;
+  left: 40px;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 0.9;
+  text-transform: uppercase;
+}
+
+.travel__swiper-subtitle {
+  position: absolute;
+  top: 139px;
+  left: -139px;
+  height: 22px;
+  width: 300px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.22;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  text-align: end;
+  opacity: 0.5;
+}
+
+.travel__swiper-text {
+  position: relative;
+  top: 8px;
+  left: 123px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2.57;
+  letter-spacing: 5.25px;
+  text-transform: uppercase;
+  opacity: 0.75;
+}
+
+.travel__coctail {
+  position: absolute;
+  width: 564px;
+  height: 564px;
+  right: -245px;
+  bottom: 74px;
+}
+
+.travel__coctail img {
+  width: 100%;
+  height: 100%;
 }
 
 *,
@@ -1151,7 +1232,7 @@ body.lock {
   height: 100%;
   position: absolute;
   background: #FFFFFF;
-  opacity: 0.1;
+  opacity: 0.05;
 }
 
 .page__line_1 {
